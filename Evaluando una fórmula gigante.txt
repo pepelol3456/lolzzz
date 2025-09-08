@@ -1,0 +1,12 @@
+#include <iostream>
+
+
+int main() {
+    float x,y,z,k,s;
+   std::cin>>x>>y>>z;
+   s=(((2*x+y)/z)*(y*y*y-z));
+   k=(((x+2*y+3*z)/(z-2*y-3*x))+x*x+z*z);
+   std::cout<<s/k;
+
+    return 0;
+}

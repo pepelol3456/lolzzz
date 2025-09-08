@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main() {
+   
+   int a,b,c,r;
+   std::cin>>a>>b>>c;
+   r=a*c+b;
+   std::cout<<r<<"/"<<c;
+    
+    return 0;
+}

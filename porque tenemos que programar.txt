@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main() {
+    float x,y,a;
+    std::cin>>x;
+    a=(x+x*x)/((5*x)+3);
+    y=(a+x)*(a/(a+2*x));
+    std::cout<<y;
+    
+    return 0;
+}
